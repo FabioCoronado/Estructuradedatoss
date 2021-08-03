@@ -1,0 +1,22 @@
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+
+int main()
+{
+	float FACV, base, altura;
+	
+	cout<<"INGRESE LA BASE:"<<endl;
+	cin>>base;
+	cout<<"INGRESE LA ALTURA:"<<endl;
+	cin>>altura;
+
+	FACV=(base*altura)/2;
+	cout<<"EL AREA ES:"<<FACV<<endl;
+
+	system("pause");
+	return 0;
+}
