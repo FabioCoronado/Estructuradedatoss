@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#include "Vector.h"
+#define MAX 100
+using namespace std;
+
+int main(void)
+{ int vec[MAX], n;
+cout<<"Nro de elementos:"; cin>>n;
+	Vector vectorsito;
+
+	vectorsito.cargarVector(vec,n);
+	vectorsito.mostrarVector(vec,n);
+	cout<<"La suma es: "<<vectorsito.sumarVector(vec,n)<<endl;
+	
+	system ("pause");
+	return 0;
+}
